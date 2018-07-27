@@ -13,6 +13,8 @@
 		AE48467F210B07260005AFC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE48467D210B07260005AFC2 /* Main.storyboard */; };
 		AE484681210B07270005AFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE484680210B07270005AFC2 /* Assets.xcassets */; };
 		AE484684210B07270005AFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE484682210B07270005AFC2 /* LaunchScreen.storyboard */; };
+		AEAB0CCD210B6AA600F83569 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAB0CCC210B6AA600F83569 /* Constants.swift */; };
+		AEAB0CCF210B6E2700F83569 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAB0CCE210B6E2700F83569 /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		AE484680210B07270005AFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE484683210B07270005AFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE484685210B07270005AFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEAB0CCC210B6AA600F83569 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AEAB0CCE210B6E2700F83569 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,14 +73,48 @@
 		AE484678210B07260005AFC2 /* raniy shine */ = {
 			isa = PBXGroup;
 			children = (
+				AEAB0CCB210B69D100F83569 /* Utilities */,
+				AEAB0CCA210B69CA00F83569 /* Model */,
+				AEAB0CC9210B69C000F83569 /* View */,
+				AEAB0CC8210B69AE00F83569 /* Controller */,
 				AE484679210B07260005AFC2 /* AppDelegate.swift */,
-				AE48467B210B07260005AFC2 /* ViewController.swift */,
 				AE48467D210B07260005AFC2 /* Main.storyboard */,
 				AE484680210B07270005AFC2 /* Assets.xcassets */,
 				AE484682210B07270005AFC2 /* LaunchScreen.storyboard */,
 				AE484685210B07270005AFC2 /* Info.plist */,
 			);
 			path = "raniy shine";
+			sourceTree = "<group>";
+		};
+		AEAB0CC8210B69AE00F83569 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE48467B210B07260005AFC2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEAB0CC9210B69C000F83569 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEAB0CCA210B69CA00F83569 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEAB0CCE210B6E2700F83569 /* CurrentWeather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEAB0CCB210B69D100F83569 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AEAB0CCC210B6AA600F83569 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		F7B575BAE8EB3E083E659423 /* Pods */ = {
@@ -218,6 +256,8 @@
 			files = (
 				AE48467C210B07260005AFC2 /* ViewController.swift in Sources */,
 				AE48467A210B07260005AFC2 /* AppDelegate.swift in Sources */,
+				AEAB0CCF210B6E2700F83569 /* CurrentWeather.swift in Sources */,
+				AEAB0CCD210B6AA600F83569 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
