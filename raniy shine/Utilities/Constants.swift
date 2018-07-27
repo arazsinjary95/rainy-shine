@@ -12,7 +12,7 @@ let BASE_URL = "https://samples.openweathermap.org/data/2.5/weather?"
 let LATITUDE = "lat="
 let LONGITUDE = "&lon="
 let APP_ID = "&appid="
-let API_KEY = "b6907d289e10d714a6e88b30761fae22"
+let API_KEY = "06e3e94e7846b915debf1b590b487b58"
 
 typealias DownloadComplete = () -> ()
 
